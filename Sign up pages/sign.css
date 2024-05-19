@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #000;
+    padding: 30px 0 30px 50px;
+}
+
+header .logo img{
+    filter: invert();
+    width: 120px;
+}
+
+section{
+    /* background-color: rgba(39, 39, 39, 1); */
+    background: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .main{
+    margin: 32px 0;
+    padding: 32px;
+    width: 734px;
+    /* height: 800px; */
+    background:#121212;
+    border-radius: 5px;
+}
+
+section .main h1{
+    text-align: center;
+    margin: 40px 0;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+section .main h1 span{
+  position: relative;
+  right: 60px;
+}
+
+section .main .Email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+section .main .Email form label {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+section .main .Email form input{
+    display: block;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    background: rgb(18, 18, 18);
+    outline: none;
+    border: none;
+    appearance: none;
+    border-radius: 4px;
+    box-shadow:inset 0 0 0 1px #878787;
+    color: white;
+}
+
+section .main .Email form input:hover{
+    border: 1px solid white;
+  
+}
+
+ .Email a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1ed760;
+    text-decoration: underline;
+ }
+
+.Email button {
+    background-color: #1ed760;
+    width: 324px;
+    height: 48px;
+    border-radius: 30px;
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 32px;
+    letter-spacing: .4px;
+}
+
+.main .hr-text{
+    border: 0;
+    font-size: 14px;
+    height: 1.5em;
+    line-height: 1em;
+    position: relative;
+    text-align: center;
+}
+
+.hr-text::before{
+    content: "";
+    background-color: #727272;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+.hr-text::after {
+    background: rgb(18, 18, 18);
+    color: white;
+    content: attr(data-content);
+    line-height: 1.5em;
+    padding: 0 7px;
+    position: relative;
+}
+
+ .account-connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+ .account-connect button{
+    width: 325px;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    border-radius: 500px;
+    color: white;
+    background: transparent;
+    border: 1px solid #878787;
+    font-size: 15px;
+    font-weight: bold;
+ }
+
+ .account-connect button:hover{
+    border: 1px solid white;
+    transition: .2s ;
+}
+
+ .account-connect button img {
+    float: left;
+    margin: 0 10px;
+}
+
+.horizontal hr {
+    margin: 32px 100px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    border-top: 1px solid rgb(41, 41, 41);
+}
+
+section .main .footer{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.footer span {
+    color: #A7A7A7;
+    margin-right: 3px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: underline;
+}
+.footer a:hover{
+    color: #1ed760;
+ 
+ }

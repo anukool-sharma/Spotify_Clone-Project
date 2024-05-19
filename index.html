@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/utility.css">
+</head>
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="./img/close.svg" alt="Close Icon" width="30">
+            </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="./img/logo.svg" width="110px" alt="Logo Icon"></div>
+                <ul>
+                    <li><img class="invert" src="./img/home.svg" alt="Home Icon">Home</li>
+                    <li><img class="invert" src="./img/search.svg" alt="Search Icon">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert" src="./img/playlist.svg" alt="playlist Icon">
+                    <h4>Your Library</h4>
+                </div>
+
+                <div class="songList">
+                    <ul>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+               
+            </div>
+
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img class="invert hamburger" src="./img/hamburger.svg" alt="Hamburger Icon" width="40px">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </div>
+
+                </div>
+
+                <div class="buttons">
+                    <button class="signupbtn"><a href="./Sign up pages/sign.html">Sign up</a></button>
+                    <button class="loginbtn"><a href="Login Pages/Login.html">Log in</a></button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify-Playlists</h1>
+                <div class="cardContainer">
+
+                       <!-- card 1 start from here  -->
+                    <div data-folder="RadhaKrishna" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/RadhaKrishna.jpg" alt="Happy Image">
+                        <h4>Radha Krishna Bajan</h4>
+                        <p>Artist</p>
+                    </div>
+                       <!-- card 2 start from here  -->
+
+                       <div data-folder="SidhuMooseWala" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Sidhu Bhai.jpg" alt="Happy Image">
+                        <h4>Sidhu Moose Wala</h4>
+                        <p>Artist</p>
+                    </div>
+
+                        <!-- card 3 start from here  -->
+
+                    <div data-folder="amrinderGill" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Amrinder Gill.jpg" alt="Happy Image">
+                        <h4>Amrinder Gill</h4>
+                        <p>Artist</p>
+                    </div>
+
+                       <!-- card 4 start from here  -->
+                    <div data-folder="ArjitSingh" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/ArjitSingh.jpg" alt="Happy Image">
+                        <h4>Arijit Singh</h4>
+                        <p>Artist</p>
+                    </div>
+
+                        <!-- card 5 start from here  -->
+
+                    <div data-folder="babbuMaan" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/MaanSaab.jpg" alt="Happy Image">
+                        <h4>Babbu Maan All Songs</h4>
+                        <p>Artist</p>
+                    </div>
+                        <!-- card 6 start from here  -->
+
+                    <div data-folder="Diljit" class="card">  
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Diljeet Dosanjh.jpg" alt="Happy Image">
+                        <h4>Diljit Dosanjh All Songs</h4>
+                        <p>Artist</p>
+                    </div>
+                    <!-- card 7 start from here  -->
+                    <div data-folder="Diljit" class="card">  
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/DayDreamer.jpg" alt="Happy Image">
+                        <h4>Day Dreamer</h4>
+                        <p>Artist</p>
+                    </div>
+
+                    <!-- card 8 start from here  -->
+                    <div data-folder="hansrajRaguwanshi" class="card">  
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Hansraj Raguvanshi.jpg" alt="Happy Image">
+                        <h4>Hansraj Raguvanshi</h4>
+                        <p>Artist</p>
+                    </div>
+
+                        <!-- card 9 start from here  -->
+
+                    <div data-folder="KaranAujla" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Karan Aujla.jpg" alt="Happy Image">
+                        <h4>Karan Aujla Mix</h4>
+                        <p>By KARAN AUJLA</p>
+                    </div>
+
+                        <!-- card 10 start from here  -->
+
+                    <div data-folder="KaranAujla" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Parmish Verma.jpg" alt="Happy Image">
+                        <h4>Parmish Verma</h4>
+                        <p>Artist</p>
+                    </div>
+                        <!-- card 11 start from here  -->
+
+                    <div data-folder="KaranAujla" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Prabh Gill.jpg" alt="Happy Image">
+                        <h4>Prabh Gill</h4>
+                        <p>Artist</p>
+                    </div>
+
+                        <!-- card 12 start from here  -->
+
+                    <div data-folder="PremDhillon" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/PremDhillon.jpg" alt="Happy Image">
+                        <h4>Prem Dhillon</h4>
+                        <p>Artist</p>
+                    </div>
+
+                        <!-- card 13 start from here  -->
+
+                    <div data-folder="KaranAujla" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/SatinderSartaj.jpg" alt="Happy Image">
+                        <h4>Satindar Sartaaj</h4>
+                        <p>Artist</p>
+                    </div>
+                        <!-- card 14 start from here  -->
+
+                    <div data-folder="KaranAujla" class="card"> 
+                    
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="#000" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+                              </svg>
+                        </div>
+                        <img src="./img/Sharry Maan.jpg" alt="Happy Image">
+                        <h4>Sharry Maan </h4>
+                        <p>Artist</p>
+                    </div>
+
+                   
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+
+                 <div class="abovebar">
+                        <div class="songinfo"></div>
+                    <div class="songbuttons">
+                        <img id="previous" src="./img/prevsong.svg" alt="Previous button">
+                        <img id="play" src="./img/play.svg" alt="Play Button">
+                        <img id="next" src="./img/nextsong.svg" alt="Next Button">
+                    </div>
+
+                    <div class="timevol">
+                        <div class="songtime"></div>
+                        <div class="volume">
+                            <img src="./img/volume.svg" alt="Volume Icon" width="25">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    
+                    </div>
+                   
+
+                 </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
